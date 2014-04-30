@@ -21,6 +21,20 @@
 		B172BDAC1910A96A00F68784 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B172BD8E1910A96A00F68784 /* UIKit.framework */; };
 		B172BDB41910A96A00F68784 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B172BDB21910A96A00F68784 /* InfoPlist.strings */; };
 		B172BDB61910A96A00F68784 /* evnaviTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B172BDB51910A96A00F68784 /* evnaviTests.m */; };
+		B172BDC01910AA3E00F68784 /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B172BDBF1910AA3E00F68784 /* GoogleMaps.framework */; };
+		B172BDCD1910AACF00F68784 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B172BDC11910AACF00F68784 /* AVFoundation.framework */; };
+		B172BDCE1910AACF00F68784 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B172BDC21910AACF00F68784 /* CoreData.framework */; };
+		B172BDCF1910AACF00F68784 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B172BDC31910AACF00F68784 /* CoreLocation.framework */; };
+		B172BDD01910AACF00F68784 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B172BDC41910AACF00F68784 /* CoreText.framework */; };
+		B172BDD11910AACF00F68784 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B172BDC51910AACF00F68784 /* GLKit.framework */; };
+		B172BDD21910AACF00F68784 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B172BDC61910AACF00F68784 /* ImageIO.framework */; };
+		B172BDD31910AACF00F68784 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B172BDC71910AACF00F68784 /* libc++.dylib */; };
+		B172BDD41910AACF00F68784 /* libicucore.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B172BDC81910AACF00F68784 /* libicucore.dylib */; };
+		B172BDD51910AACF00F68784 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B172BDC91910AACF00F68784 /* libz.dylib */; };
+		B172BDD61910AACF00F68784 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B172BDCA1910AACF00F68784 /* OpenGLES.framework */; };
+		B172BDD71910AACF00F68784 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B172BDCB1910AACF00F68784 /* QuartzCore.framework */; };
+		B172BDD81910AACF00F68784 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B172BDCC1910AACF00F68784 /* SystemConfiguration.framework */; };
+		B172BDDA1910AAFD00F68784 /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B172BDD91910AAFD00F68784 /* GoogleMaps.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +67,20 @@
 		B172BDB11910A96A00F68784 /* evnaviTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "evnaviTests-Info.plist"; sourceTree = "<group>"; };
 		B172BDB31910A96A00F68784 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B172BDB51910A96A00F68784 /* evnaviTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = evnaviTests.m; sourceTree = "<group>"; };
+		B172BDBF1910AA3E00F68784 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMaps.framework; sourceTree = "<group>"; };
+		B172BDC11910AACF00F68784 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		B172BDC21910AACF00F68784 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		B172BDC31910AACF00F68784 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		B172BDC41910AACF00F68784 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		B172BDC51910AACF00F68784 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		B172BDC61910AACF00F68784 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		B172BDC71910AACF00F68784 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		B172BDC81910AACF00F68784 /* libicucore.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libicucore.dylib; path = usr/lib/libicucore.dylib; sourceTree = SDKROOT; };
+		B172BDC91910AACF00F68784 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		B172BDCA1910AACF00F68784 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		B172BDCB1910AACF00F68784 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		B172BDCC1910AACF00F68784 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		B172BDD91910AAFD00F68784 /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +88,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B172BDCD1910AACF00F68784 /* AVFoundation.framework in Frameworks */,
+				B172BDCE1910AACF00F68784 /* CoreData.framework in Frameworks */,
+				B172BDCF1910AACF00F68784 /* CoreLocation.framework in Frameworks */,
+				B172BDD01910AACF00F68784 /* CoreText.framework in Frameworks */,
+				B172BDD11910AACF00F68784 /* GLKit.framework in Frameworks */,
+				B172BDD21910AACF00F68784 /* ImageIO.framework in Frameworks */,
+				B172BDD31910AACF00F68784 /* libc++.dylib in Frameworks */,
+				B172BDD41910AACF00F68784 /* libicucore.dylib in Frameworks */,
+				B172BDD51910AACF00F68784 /* libz.dylib in Frameworks */,
+				B172BDD61910AACF00F68784 /* OpenGLES.framework in Frameworks */,
+				B172BDD71910AACF00F68784 /* QuartzCore.framework in Frameworks */,
+				B172BDD81910AACF00F68784 /* SystemConfiguration.framework in Frameworks */,
 				B172BD8D1910A96A00F68784 /* CoreGraphics.framework in Frameworks */,
 				B172BD8F1910A96A00F68784 /* UIKit.framework in Frameworks */,
+				B172BDC01910AA3E00F68784 /* GoogleMaps.framework in Frameworks */,
 				B172BD8B1910A96A00F68784 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -101,6 +142,20 @@
 		B172BD891910A96A00F68784 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B172BDD91910AAFD00F68784 /* GoogleMaps.bundle */,
+				B172BDC11910AACF00F68784 /* AVFoundation.framework */,
+				B172BDC21910AACF00F68784 /* CoreData.framework */,
+				B172BDC31910AACF00F68784 /* CoreLocation.framework */,
+				B172BDC41910AACF00F68784 /* CoreText.framework */,
+				B172BDC51910AACF00F68784 /* GLKit.framework */,
+				B172BDC61910AACF00F68784 /* ImageIO.framework */,
+				B172BDC71910AACF00F68784 /* libc++.dylib */,
+				B172BDC81910AACF00F68784 /* libicucore.dylib */,
+				B172BDC91910AACF00F68784 /* libz.dylib */,
+				B172BDCA1910AACF00F68784 /* OpenGLES.framework */,
+				B172BDCB1910AACF00F68784 /* QuartzCore.framework */,
+				B172BDCC1910AACF00F68784 /* SystemConfiguration.framework */,
+				B172BDBF1910AA3E00F68784 /* GoogleMaps.framework */,
 				B172BD8A1910A96A00F68784 /* Foundation.framework */,
 				B172BD8C1910A96A00F68784 /* CoreGraphics.framework */,
 				B172BD8E1910A96A00F68784 /* UIKit.framework */,
@@ -230,6 +285,7 @@
 				B172BDA31910A96A00F68784 /* Images.xcassets in Resources */,
 				B172BD951910A96A00F68784 /* InfoPlist.strings in Resources */,
 				B172BD9E1910A96A00F68784 /* Main.storyboard in Resources */,
+				B172BDDA1910AAFD00F68784 /* GoogleMaps.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -375,9 +431,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "evnavi/evnavi-Prefix.pch";
 				INFOPLIST_FILE = "evnavi/evnavi-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -388,9 +449,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "evnavi/evnavi-Prefix.pch";
 				INFOPLIST_FILE = "evnavi/evnavi-Info.plist";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -455,6 +521,7 @@
 				B172BDBB1910A96A00F68784 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B172BDBC1910A96A00F68784 /* Build configuration list for PBXNativeTarget "evnaviTests" */ = {
 			isa = XCConfigurationList;
@@ -463,6 +530,7 @@
 				B172BDBE1910A96A00F68784 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
